@@ -313,7 +313,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`id`, `first_name`, `last_name`, `username`, `email`, `password`, `signup_date`, `profile_pic`, `num_posts`, `num_likes`, `user_closed`, `friend_array`) VALUES
-(1, 'name', 'yyguhj', 'reece_kenney', 'reece@gmail.com', 'fdcxs', '2017-08-08', 'htgf', 1, 1, 'no', ''),
+(1, 'name', 'yyguhj', 'reece_kenney', 'reece@gmail.com', '827ccb0eea8a706c4c34a16891f84e7b', '2017-08-08', 'htgf', 1, 1, 'no', ''),
 (2, 'Reece', 'Good', 'reece_good', 'Reece22@gmail.com', '827ccb0eea8a706c4c34a16891f84e7b', '0000-00-00', 'profile_pic', 0, 0, 'no', ','),
 (5, 'Ihar', 'Petrushenka', 'ihar_petrushenka', 'Petrushen@yahoo.com', '67f78137a7c6f9cd55a4c74ebc01b4ff', '2017-09-10', 'assets/images/profile_pics/ihar_petrushenka5f52b88b98a9c9ebbab5a2da4da82129n.jpeg', 17, 8, 'no', ',mickey_mouse,bart_simpson,'),
 (6, 'John', 'Smith', 'john_smith', 'Js@js.com', '67f78137a7c6f9cd55a4c74ebc01b4ff', '2017-09-10', 'assets/images/profile_pics/defaults/head_emerald.png', 22, 5, 'no', ',bart_simpson,'),
