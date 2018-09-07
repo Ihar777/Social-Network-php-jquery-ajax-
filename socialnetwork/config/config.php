@@ -4,7 +4,7 @@ session_start();
 
 $timezome = date_default_timezone_set("Europe/Minsk");
 
-$con = mysqli_connect("localhost", "Ihar999", "poWer8585!", "SOCIALNETWORK999");
+$con = mysqli_connect("localhost", "", "", "SOCIALNETWORK999");
 
 if(mysqli_connect_errno()) {
 
